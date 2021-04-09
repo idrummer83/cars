@@ -70,7 +70,7 @@ html#landing_global {
     height: 100%;
     position: relative;
     overflow: auto;
-    min-width: 1000px;
+    /*min-width: 1000px;*/
 }
 
 #landing_global body{
@@ -124,12 +124,12 @@ html#landing_global {
 }
 
 #landing_global.view_full_width .main_width{
-    width: 100%;
+    /*width: 100%;*/
 }
 
 #landing_global.view_full_width .main{
     /*border: none;*/
-    max-width: 1920px;
+    /*max-width: 1920px;*/
 }
 
 #landing_global .min_spacing{
@@ -161,7 +161,8 @@ html#landing_global {
     top: 0;
     z-index: 1000;
     position: fixed;
-    min-width: 1000px;
+    /*min-width: 1000px;*/
+    width: 100%;
 }
 
 #landing_global .header_shadow{
@@ -236,7 +237,7 @@ html#landing_global {
 }
 
 #landing_global .menu_phones{
-    width: 245px;
+    /*width: 245px;*/
 }
 
 #landing_global .logo img{
@@ -456,8 +457,9 @@ html#landing_global {
 
 #landing_global .section_title .title{
     overflow: hidden;
+    line-height: 1;
     /*width: 1px;*/
-    white-space: nowrap;
+    /*white-space: nowrap;*/
     padding: 0 20px;
     font-size: 320%;
     color: #8a8989;
@@ -1153,6 +1155,7 @@ html#landing_global {
 
 #landing_global .clients_inner .clients_short {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     margin: 0 auto;
@@ -1194,7 +1197,7 @@ html#landing_global {
 #landing_global .comments_inner{
     display: block;
     overflow: hidden;
-    width: 75%;
+    /*width: 75%;*/
     height: 500px;
     margin: 0 auto 50px auto;
 }

@@ -2,6 +2,7 @@
 <html class="view_full_width" id="landing_global">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Автобаферы.</title>
     <link rel="icon" type="image/png" href="images/menu/favicon.png">
     <meta name="description" content="Автобаферы, баферы от TTC. Подробнее на сайте.">
@@ -135,13 +136,16 @@
 <div class="main main_width" id="main">
     <div class="content_main" id="content_main">
         <header class="header clearfix fixed_menu main_width min_padding" id="header"
-                style="background:url('images/general/bg_up.png')">
+                style="background:url('images/general/bg_up.png') 0 100% repeat-x;">
 <!--            <div class="spacing relative clearfix">-->
                 <div class="main_menu_table container">
                     <div class="row">
-                        <div class="logo col-md-3 d-flex align-items-center">
-                            <img src="images/menu/logo_TCC_Ukraine_.png" alt=" "></div>
-                        <div class="center_menu col-md-7 d-flex justify-content-center align-items-center">
+                        <div class="col-md-3 d-flex justify-content-center justify-content-md-start align-items-center">
+                            <div class="logo">
+                                <img src="images/menu/logo_TCC_Ukraine_.png" alt=" ">
+                            </div>
+                        </div>
+                        <div class="center_menu col-md-6 d-flex justify-content-center align-items-center py-3 p-md-0">
                             <ul class="root_menu" id="root_menu">
                                 <li><a href="/landing/02/#avtopadushki_TCC" data-section="avtopadushki_TCC">О
                                     продукте</a></li>
@@ -157,13 +161,14 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="menu_phones col-md-2">
-                            <div class="contact_phones"> (063) 444-10-50<br/>ttcinua@gmail.com
+                        <div class="col-md-3 d-flex justify-content-center justify-content-md-end align-items-center">
+                            <div class="menu_phones">
+                                <div class="contact_phones"> (063) 444-10-50<br/>ttcinua@gmail.com
                                 <div class="m_recall"><span data-id="m_1617801227"
                                                             class="show_popup">Обратный звонок</span></div>
                             </div>
-                            <div class="popup_alpha" id="popup_alpha"></div>
-                            <div class="popup_window" id="popup_m_1617801227">
+                                <div class="popup_alpha" id="popup_alpha"></div>
+                                <div class="popup_window" id="popup_m_1617801227">
                                 <div class="popup_inner">
                                     <div class="popup_close"></div>
                                     <div class="order_form_title title_in_section">Обратный звонок</div>
@@ -200,6 +205,7 @@
                                     <script type="text/javascript" src="js/parsley.js"></script>
                                 </div>
                             </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -207,67 +213,92 @@
             <div class="divider bottom_divider type_1 position_1"
                  style="background:url('images/general/bg-shadow.png');height: 10px"></div>
         </header>
-        <section data-section="main" class="content c_header" data-height_el="#c_header_bg_top">
-            <div class="bg">
-                <div class="relative">
-                    <img src="images/header/avtopadushki_TCC-ukraine_new.jpg"
-                                           class="bg_image" alt=" ">
-                    <img src="images/header/bg_2_.png"
-                                                                          class="bg_top" alt=" " id="c_header_bg_top">
-                </div>
-            </div>
-            <div class="clearfix h_content_top">
-                <div class="spacing">
-                    <div class="relative">
-                        <div class="h_content">
+        <section data-section="main" class="content c_header" data-height_el="#c_header_bg_top" style="height: 530px;">
+            <div class=""
+                 style="height: 100%;
+                background: url('images/header/avtopadushki_TCC-ukraine_new.jpg') 50% 50% no-repeat;
+                background-size: cover;">
+                <div class="container pt-5">
+                    <div class="row">
+                        <div class="col-md-6 mb-5 pb-5 mb-md-0 pb-md-0">
                             <div class="title_in_section h_title">Дилер в Украине с 2010</div>
                             <h1 class="title_in_section h_training">Автобаферы ТТС</h1>
                             <div class="title_in_section h_about"></div>
-                            <div class="h_text">&nbsp; / Баферы, амортизирующие подушки, межвитковые вставки, проставки
-                                /<br/></span></p></div>
-                            <div class="timer_modern counter right top">
-                                <div class="modern_timer_inner" style="display:none">
-                                    <div class="timer_modern_header" style="display:none"> Timer</div>
-                                    <div class="modern_timer_body timer_modern_body_bg">
-                                        <div class="timer_modern_title">
-                                            <div class="overlay"></div>
-                                            <div class="timer_text">Осталось:</div>
-                                        </div>
-                                        <div class="clearfix modern_counters">
-                                            <div class="counter_days counter_modern_time">
-                                                <div><span class="timer_days">00</span>
-                                                    <div></div>
-                                                </div>
-                                            </div>
-                                            <div class="counter_hours counter_modern_time">
-                                                <div><span class="timer_hours">00</span>
-                                                    <div></div>
-                                                </div>
-                                            </div>
-                                            <div class="counter_minutes counter_modern_time">
-                                                <div><span class="timer_minutes">00</span>
-                                                    <div></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="modern_button">
-                                    <div class="btn" id="main_btn" data-scroll_to="order_information">ЗАКАЗАТЬ</div>
-                                    <br>
-                                    <div data-id="1617801227" class="header_form_add_btn show_popup second_main_btn"
-                                         style="color: #0075ff">Получить консультацию
-                                    </div>
+                            <div class="h_text">/ Баферы, амортизирующие подушки, межвитковые вставки, проставки /</div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="modern_button">
+                                <div class="btn" id="main_btn" data-scroll_to="order_information">ЗАКАЗАТЬ</div>
+                                <br>
+                                <div data-id="1617801227" class="header_form_add_btn show_popup second_main_btn"
+                                     style="color: #0075ff">Получить консультацию
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="h_slogan" style="display:none"><img
-                            src="images/header/plachka_pod_text_versia_2.png" class="h_slogan_bg" alt=" ">
-                        <div class="spacing"></div>
-                    </div>
                 </div>
             </div>
+            <div style="background: url('images/header/bg_2_.png') 0 0 no-repeat"></div>
+
+
+<!--            <div class="bg">-->
+<!--                <div class="relative">-->
+<!--                    <img src="images/header/avtopadushki_TCC-ukraine_new.jpg" class="bg_image" alt=" ">-->
+<!--                    <img src="images/header/bg_2_.png" class="bg_top" alt="" id="c_header_bg_top">-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="clearfix h_content_top">-->
+<!--                <div class="spacing">-->
+<!--                    <div class="relative">-->
+<!--                        <div class="h_content">-->
+<!--                            <div class="title_in_section h_title">Дилер в Украине с 2010</div>-->
+<!--                            <h1 class="title_in_section h_training">Автобаферы ТТС</h1>-->
+<!--                            <div class="title_in_section h_about"></div>-->
+<!--                            <div class="h_text">&nbsp; / Баферы, амортизирующие подушки, межвитковые вставки, проставки-->
+<!--                                /<br/></span></p></div>-->
+<!--                            <div class="timer_modern counter right top">-->
+<!--                                <div class="modern_timer_inner" style="display:none">-->
+<!--                                    <div class="timer_modern_header" style="display:none"> Timer</div>-->
+<!--                                    <div class="modern_timer_body timer_modern_body_bg">-->
+<!--                                        <div class="timer_modern_title">-->
+<!--                                            <div class="overlay"></div>-->
+<!--                                            <div class="timer_text">Осталось:</div>-->
+<!--                                        </div>-->
+<!--                                        <div class="clearfix modern_counters">-->
+<!--                                            <div class="counter_days counter_modern_time">-->
+<!--                                                <div><span class="timer_days">00</span>-->
+<!--                                                    <div></div>-->
+<!--                                                </div>-->
+<!--                                            </div>-->
+<!--                                            <div class="counter_hours counter_modern_time">-->
+<!--                                                <div><span class="timer_hours">00</span>-->
+<!--                                                    <div></div>-->
+<!--                                                </div>-->
+<!--                                            </div>-->
+<!--                                            <div class="counter_minutes counter_modern_time">-->
+<!--                                                <div><span class="timer_minutes">00</span>-->
+<!--                                                    <div></div>-->
+<!--                                                </div>-->
+<!--                                            </div>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                                <div class="modern_button">-->
+<!--                                    <div class="btn" id="main_btn" data-scroll_to="order_information">ЗАКАЗАТЬ</div>-->
+<!--                                    <br>-->
+<!--                                    <div data-id="1617801227" class="header_form_add_btn show_popup second_main_btn"-->
+<!--                                         style="color: #0075ff">Получить консультацию-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <div class="h_slogan" style="display:none"><img-->
+<!--                            src="images/header/plachka_pod_text_versia_2.png" class="h_slogan_bg" alt=" ">-->
+<!--                        <div class="spacing"></div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
             <div class="popup_alpha" id="popup_alpha"></div>
             <div class="popup_window" id="popup_1617801227">
                 <div class="popup_inner">
@@ -309,7 +340,7 @@
             <div class="container">
                 <div class="advantage_row row">
                     <div class="advantage col-md-4">
-                        <div class="pl-5 pr-5">
+                        <div class="">
                             <table class="advan_table_1">
                                 <tr>
                                     <td class="advantage_image"><img
@@ -330,7 +361,7 @@
                         </div>
                     </div>
                     <div class="advantage col-md-4">
-                        <div class="pl-5 pr-5">
+                        <div class="">
                             <table class="advan_table_1">
                                 <tr>
                                     <td class="advantage_image">
@@ -349,7 +380,7 @@
                         </div>
                     </div>
                     <div class="advantage col-md-4">
-                        <div class="pl-5 pr-5">
+                        <div class="">
                             <table class="advan_table_1">
                                 <tr>
                                     <td class="advantage_image"><img
@@ -388,7 +419,7 @@
                 </div>
                 <div class="row justify-content-center">
                     <div class="col-md-5 mb-5 mb-md-0">
-                        <div class="left video_inner" style="height: 100%;">
+                        <div class="left video_inner" style="height: 100%;min-height: 300px;">
                             <iframe src="http://www.youtube.com/embed/oPJf2F-3I4E?rel=0&wmode=opaque" frameborder="0"
                                 width="100%" height="360"></iframe>
                         <img class="video_shadow w-100" src="images/about/ten_video.png" alt=""/></div>
@@ -482,7 +513,7 @@
                 <div class="row justify-content-center">
                     <div class="article_text col-md-7">
                         <img class="img-fluid m-auto"
-                        src="fotos/sertifikari2.png" alt="" width="847" height="300"/>
+                        src="fotos/sertifikari2.png" alt="" width="100%" height="auto"/>
                         <p>
                             <span>Последние 20 лет&nbsp;TTC Co. Ltd сосредоточена на&nbsp;производстве амортизирующих подушек и&nbsp;за&nbsp;это&nbsp;время смогла наработать уникальные технологии , которые сейчас использует для&nbsp;производства своих амортизирующих подушек. В&nbsp;2007 ТТС&nbsp;успешно прошла международную аттестацию и&nbsp;получила сертификат KSA 9001: ISO9001.<br/>По признанию многих специалистов, уретановые подушки TTC &ndash; лучший продукт для&nbsp;амортизации, который был&nbsp;создан за&nbsp;последние 20 лет&nbsp;с&nbsp;помощью запатентованной технологии корейской компании.<br/><br/></span>
                         </p>
@@ -603,7 +634,7 @@
                     </div>
                 </div>
                 <div class="clients_inner">
-                    <div class="clients_short col-md-8">
+                    <div class="clients_short col-md-11">
                         <img src="images/clients3/07_kopiya.png" class="client" alt=" ">
                         <img src="images/clients3/08_kopiya.png" class="client" alt=" ">
                         <img src="images/clients3/09_kopiya.png" class="client" alt=" ">
@@ -1184,7 +1215,7 @@
 <!--                </table>-->
                 <div class="article_text d-flex justify-content-center">
                     <div class="col-md-8">
-                        <img src="fotos/kak-rabotaem3.png" alt="" width="100%" height="221"/>
+                        <img src="fotos/kak-rabotaem3.png" alt="" width="100%" height="auto"/>
                     </div>
                 </div>
             </div>
