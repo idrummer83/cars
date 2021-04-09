@@ -13,7 +13,7 @@
 /*}*/
 
 .container {
-    max-width: 1156px !important;
+    max-width: 1480px !important;
     width: 100% !important;
     margin: 0 auto !important;
 }
@@ -116,7 +116,7 @@ html#landing_global {
     /*border: 15px solid #fff;*/
     box-shadow: 0 0 20px rgba(0, 0, 0, .6);
     margin: 0 auto;
-    max-width: 1730px;
+    /*max-width: 1730px;*/
 }
 
 #landing_global .main_width{
@@ -154,7 +154,7 @@ html#landing_global {
 }
 
 #landing_global .header.min_padding{
-    padding: 10px 0 15px 0;
+    padding: 0 0 15px 0;
 }
 
 #landing_global .header.fixed_menu{
@@ -271,7 +271,7 @@ html#landing_global {
 }
 
 #landing_global .root_menu li.delimiter span{
-    margin-top: 3px;
+    /*margin-top: 3px;*/
     display: block;
     width: 2px;
     height: 20px;
@@ -604,7 +604,7 @@ html#landing_global {
 }
 
 #landing_global .h_text{
-    width: 60%;
+    /*width: 60%;*/
     font-size: 120%;
 }
 

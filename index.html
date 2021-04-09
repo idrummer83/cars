@@ -14,7 +14,9 @@
     <link type="text/css" rel="stylesheet" href="css/main.css?57">
     <link type="text/css" rel="stylesheet" href="css/resize.css?28">
     <link type="text/css" rel="stylesheet" href="css/bootstrap-grid.min.css">
-    <style type="text/css"> #landing_global .section_title .title {
+    <style type="text/css">
+
+        #landing_global .section_title .title {
         font-family: 'PT Sans Narrow', sans-serif;
     }
 
@@ -106,46 +108,47 @@
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script> <![endif]--> <!--[if lt IE 8]>
     <script src="/landing/02/extra/jquery.reject.min.js"></script> <![endif]-->
     <script type="text/javascript"> var txt_title = 'Автобаферы.', fixed_menu = false;
-    var fixed_menu = " fixed_menu main_width" ? true : false;
-    var timer_seconds = 0, timer_values = 1; </script>
+        var fixed_menu = " fixed_menu main_width" ? true : false;
+        var timer_seconds = 0, timer_values = 1; </script>
     <script type="text/javascript" src="js/main.js?18"></script>
-    <script type="text/javascript"> $(function () {
-        window.site = new Site($('#landing_global'));
-    });
-    $(function () {
-        var $header = $("#header", $("#landing_global"));
-        $("#landing_global").bind("onScrollTop", function () {
-            var $this = $header;
-            if (!$this.hasClass("head-pinned")) {
-                $this.removeClass("head-unpinned");
-                $this.stop(true, false).animate({top: 0}, 300);
-                $this.addClass("head-pinned");
-            }
+    <script type="text/javascript">
+        $(function () {
+            window.site = new Site($('#landing_global'));
         });
-        $("#landing_global").bind("onScrollDown", function () {
-            var $this = $header;
-            if (!$this.hasClass("head-unpinned") && site.scroll_top > $this.outerHeight()) {
-                $this.removeClass("head-pinned");
-                $this.stop(true, false).animate({top: -$this.outerHeight()}, 300);
-                $this.addClass("head-unpinned");
-            }
+        $(function () {
+            var $header = $("#header", $("#landing_global"));
+            $("#landing_global").bind("onScrollTop", function () {
+                var $this = $header;
+                if (!$this.hasClass("head-pinned")) {
+                    $this.removeClass("head-unpinned");
+                    $this.stop(true, false).animate({top: 0}, 300);
+                    $this.addClass("head-pinned");
+                }
+            });
+            $("#landing_global").bind("onScrollDown", function () {
+                var $this = $header;
+                if (!$this.hasClass("head-unpinned") && site.scroll_top > $this.outerHeight()) {
+                    $this.removeClass("head-pinned");
+                    $this.stop(true, false).animate({top: -$this.outerHeight()}, 300);
+                    $this.addClass("head-unpinned");
+                }
+            });
         });
-    }); </script>
+    </script>
 </head>
 <body>
 <div class="main main_width" id="main">
     <div class="content_main" id="content_main">
         <header class="header clearfix fixed_menu main_width min_padding" id="header"
                 style="background:url('images/general/bg_up.png') 0 100% repeat-x;">
-<!--            <div class="spacing relative clearfix">-->
-                <div class="main_menu_table container">
+                <div class="main_menu_table container" style="background-color: #fff;padding-top: 10px;">
                     <div class="row">
                         <div class="col-md-3 d-flex justify-content-center justify-content-md-start align-items-center">
                             <div class="logo">
                                 <img src="images/menu/logo_TCC_Ukraine_.png" alt=" ">
                             </div>
                         </div>
-                        <div class="center_menu col-md-6 d-flex justify-content-center align-items-center py-3 p-md-0">
+                        <div class="center_menu col-md-7 d-flex justify-content-center align-items-center py-3 p-md-0">
                             <ul class="root_menu" id="root_menu">
                                 <li><a href="/landing/02/#avtopadushki_TCC" data-section="avtopadushki_TCC">О
                                     продукте</a></li>
@@ -161,7 +164,7 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="col-md-3 d-flex justify-content-center justify-content-md-end align-items-center">
+                        <div class="col-md-2 d-flex justify-content-center justify-content-md-end align-items-center">
                             <div class="menu_phones">
                                 <div class="contact_phones"> (063) 444-10-50<br/>ttcinua@gmail.com
                                 <div class="m_recall"><span data-id="m_1617801227"
@@ -213,11 +216,18 @@
             <div class="divider bottom_divider type_1 position_1"
                  style="background:url('images/general/bg-shadow.png');height: 10px"></div>
         </header>
-        <section data-section="main" class="content c_header" data-height_el="#c_header_bg_top" style="height: 530px;">
+        <section data-section="main" class="content c_header d-flex flex-column" data-height_el="#c_header_bg_top" style="height: 716px;">
             <div class=""
-                 style="height: 100%;
+                 style="height: 630px;
                 background: url('images/header/avtopadushki_TCC-ukraine_new.jpg') 50% 50% no-repeat;
                 background-size: cover;">
+            </div>
+            <div style="
+                height: 660px;
+                position: absolute;
+                min-width: 100%;
+                background-size: cover;
+                background: url('images/header/bg_2_.png') 50% 100% no-repeat;">
                 <div class="container pt-5">
                     <div class="row">
                         <div class="col-md-6 mb-5 pb-5 mb-md-0 pb-md-0">
@@ -238,7 +248,6 @@
                     </div>
                 </div>
             </div>
-            <div style="background: url('images/header/bg_2_.png') 0 0 no-repeat"></div>
 
 
 <!--            <div class="bg">-->
@@ -459,7 +468,7 @@
                     <div class="line col">
                         <div style="background-color:#d47a36;box-shadow:0 1px 0 rgba(255,255,255, 1)">&nbsp;</div>
                     </div>
-                    <div class="col-md">
+                    <div class="col-md-auto">
                         <div class="title" style="color:#d47a36;text-shadow:0 1px 0 rgba(255,255,255, 1)">Характеристики
                             автобаферов ТТС</div>
                     </div>
@@ -503,7 +512,7 @@
                     <div class="line col">
                         <div style="background-color:#d47a36;box-shadow:0 1px 0 rgba(255,255,255, 1)">&nbsp;</div>
                     </div>
-                    <div class="col-md">
+                    <div class="col-md-auto">
                         <div class="title" style="color:#d47a36;text-shadow:0 1px 0 rgba(255,255,255, 1)">Сертификаты качества</div>
                     </div>
                     <div class="line col">
@@ -532,7 +541,7 @@
                     <div class="line col">
                         <div style="background-color:#d47a36;box-shadow:0 1px 0 rgba(255,255,255, 1)">&nbsp;</div>
                     </div>
-                    <div class="col-md">
+                    <div class="col-md-auto">
                         <div class="title" style="color:#d47a36;text-shadow:0 1px 0 rgba(255,255,255, 1)">Подбор размера подушки</div>
                     </div>
                     <div class="line col">
@@ -596,7 +605,7 @@
                     <div class="line col">
                         <div style="">&nbsp;</div>
                     </div>
-                    <div class="col-md">
+                    <div class="col-md-auto">
                         <div class="title" style="">Эффект памяти формы</div>
                     </div>
                     <div class="line col">
@@ -626,7 +635,7 @@
                     <div class="line col">
                         <div style="background-color:#757575;">&nbsp;</div>
                     </div>
-                    <div class="col-md">
+                    <div class="col-md-auto">
                         <div class="title" style="color:#757575;">Автоклубы которые нам доверяют</div>
                     </div>
                     <div class="line col">
@@ -662,7 +671,7 @@
                     <div class="line col">
                         <div style="background-color:#474747;">&nbsp;</div>
                     </div>
-                    <div class="col-md">
+                    <div class="col-md-auto">
                         <div class="title" style="color:#474747;">Автоклубы которые нам доверяют</div>
                     </div>
                     <div class="line col">
@@ -1195,7 +1204,7 @@
                     <div class="line col">
                         <div style="">&nbsp;</div>
                     </div>
-                    <div class="col-md">
+                    <div class="col-md-auto">
                         <div class="title" style="">Как мы работаем</div>
                     </div>
                     <div class="line col">
