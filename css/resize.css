@@ -1,0 +1,1010 @@
+
+
+/* мин. */
+@media all and (min-width:1px) and (max-width: 1366px){
+    #landing_global *{
+        font-size: 12px;
+    }
+    
+    #landing_global .spacing{
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+    
+    #landing_global.view_full_width .spacing {
+        padding-left: 9%;
+        padding-right: 9%;
+    }
+    
+    #landing_global .logo{
+        width: 200px;
+    }
+    
+    #landing_global .menu_phones{
+        width: 170px;
+    }
+    
+    #landing_global .root_menu{
+        margin-top: 8px;
+    }
+    
+    #landing_global .root_menu li a{
+        font-size: 110%
+    }
+    
+    #landing_global .root_menu li.delimiter span{
+        height: 13px;
+    }
+    
+    #landing_global .root_menu li.delimiter {
+        margin: 0 10px;
+    }
+    
+    #landing_global .contact_phones{
+        right: 3%;
+        font-size: 125%;
+    }
+
+    #landing_global .make_order:hover{
+        background-position: 0 -54px;
+    }
+
+    #landing_global .h_content{
+        margin-top: 30px;
+    }
+  
+    #landing_global .counter:not(.timer_modern){
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+    
+    #landing_global .make_order{
+        margin-top: 10px;
+    }
+    
+    #landing_global .training_result .tr_item_image img{
+        width: 80px;
+    }
+    
+    #landing_global .training_result .tr_item_image{
+        padding-right: 10px;
+        margin-right: 20px;
+    }
+
+    #landing_global .training_result .tr_item_about{
+        margin-left: 117px;
+    }
+    
+    #landing_global .make_order{
+        background: url(../images/header/knopka_oformit_zayavku_m.jpg);
+        width: 460px;
+        height: 80px;
+    }
+    #landing_global .make_order:hover{
+        background-position: 0 -80px;
+    }
+    
+    #landing_global .timer_value{
+        width: 118px;
+        height: 179px;
+        background: url(../images/order/plaschka_m2.png);
+    }
+    
+    #landing_global .timer_value span{
+        padding: 28px 0 26px 0;
+    }
+    
+/*    #landing_global .c_header{
+        height: 475px;
+    }*/
+    
+    #landing_global .article_content_inner,
+    #landing_global .article_content_outer{
+        width: 680px;
+    }
+    
+    #landing_global .process_left{
+        width: 86px;
+    }
+    
+    #landing_global .process_spacing{
+        padding: 0 106px;
+    }
+    
+    #landing_global .process_wrapper .process_arrow .arrow{
+        margin-top: -36px;
+        width: 72px;
+        height: 72px;
+    }
+
+    #landing_global .process_left .arrow{
+        background-position: 0 0 !important;
+    }
+
+    #landing_global .process_left:hover .arrow{
+        background-position: -72px 0 !important;
+    }
+
+    #landing_global .process_left:active .arrow{
+        background-position: -144px 0 !important;
+    }
+
+    #landing_global .process_left.disabled .arrow{
+        background-position: -216px 0 !important;
+    }
+
+    #landing_global .process_wrapper .process_right .arrow{
+        background-position: 0 -72px !important;
+    }
+
+    #landing_global .process_right:hover .arrow{
+        background-position: -72px -72px !important;
+    }
+
+    #landing_global .process_right:active .arrow{
+        background-position: -144px -72px !important;
+    }
+
+    #landing_global .process_right.disabled .arrow{
+        background-position: -216px -72px !important;
+    }
+    
+/*    .cat_left{
+        background: url(../images/bg-arrow-left_m2.png);
+    }
+
+    .cat_right{
+        background: url(../images/bg-arrow-right_m2.png);
+    }*/
+
+    #landing_global .cat_left,
+    #landing_global .cat_right{
+        width: 92px;
+    }
+    
+    #landing_global .c_products .colections_nav{
+        left: 162px;
+    }
+
+/*    .touch .item_full{
+        left: 92px;
+        right: 92px;
+    }*/
+
+    #landing_global .cat_arrow{
+        margin-top: -36px;
+        width: 72px;
+        height: 72px;
+    }
+
+    #landing_global .cat_left .cat_arrow{
+        background-position: 0 0 !important;
+    }
+
+    #landing_global .cat_left:hover .cat_arrow{
+        background-position: -72px 0 !important;
+    }
+
+    #landing_global .cat_left:active .cat_arrow{
+        background-position: -144px 0 !important;
+    }
+
+    #landing_global .cat_left.cat_nav_disabled .cat_arrow{
+        background-position: -216px 0 !important;
+    }
+
+    #landing_global .cat_right .cat_arrow{
+        background-position: 0 -72px !important;
+    }
+
+    #landing_global .cat_right:hover .cat_arrow{
+        background-position: -72px -72px !important;
+    }
+
+    #landing_global .cat_right:active .cat_arrow{
+        background-position: -144px -72px !important;
+    }
+
+    #landing_global .cat_right.cat_nav_disabled .cat_arrow{
+        background-position: -216px -72px !important;
+    }
+
+    #landing_global .cat_arrow_qty{
+        font-size: 12px;
+    }
+    
+    #landing_global .item{
+        width: 350px;
+    }
+    
+    #landing_global .timer_modern{
+        width: 320px;
+    }
+    
+    #landing_global .package_table tbody td{
+        height: 65px;
+    }
+    
+    #landing_global .package_table thead th.pack_class{
+        width: 160px;
+    }
+    
+    #landing_global .parallax_text{
+        width: 350px;
+        max-height: 300px;
+        right: 100px;
+        bottom: 100px;
+    }
+    
+    #landing_global .parallax_text.top{
+        bottom: auto;
+        top: 100px;
+    }
+    
+    #landing_global .c_advantages_block .title{
+        font-size: 220%;
+    }
+    
+    #landing_global .popup_window{
+        margin-left: -350px;
+        width: 700px;
+    }
+} 
+
+@media all and (min-width:1px) and (max-width: 1300px){
+    #landing_global .spacing{
+/*        padding-left: 2%;
+        padding-right: 2%;*/
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    
+    #landing_global .header .spacing {
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+    
+    #landing_global.view_full_width .spacing {
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+    
+    #landing_global .contact_phones{
+        right: 2%;
+        font-size: 125%;
+    }
+    
+    #landing_global .root_menu li.delimiter {
+        margin: 0 9px;
+    }
+    
+    #landing_global .main_width{
+        /*width: 95%;*/
+    }
+    
+    #landing_global .comments_inner{
+        /*width: 85%;*/
+    }
+    
+/*    #landing_global .c_header{
+        height: 446px;
+    }*/
+    
+/*    #landing_global .timer_modern{
+        width: 315px;
+    }*/
+    
+}
+
+@media all and (min-width:1px) and (max-width: 1200px){
+    
+    #landing_global .contact_phones{
+        right: 2%;
+        font-size: 115%;
+    }
+    
+    #landing_global .root_menu li.delimiter {
+        margin: 0 7px;
+    }
+    
+    #landing_global .root_menu{
+        margin-top: 5px;
+    }
+    
+    #landing_global .logo{
+        /*width: 180px;*/
+    }
+    
+    #landing_global .menu_phones{
+        width: 170px;
+    }
+    
+    #landing_global .main_width{
+        /*width: 97%;*/
+    }
+    
+    #landing_global .h_slogan div {
+        font-size: 200%;
+        top: 10%;
+    }
+    
+    #landing_global .counter_title > div{
+        padding: 25px 20px;
+    }
+    
+/*    #landing_global .c_header{
+        height: 428px;
+    }*/
+    
+/*    #landing_global .timer_modern{
+        width: 316px;
+    }*/
+    
+    #landing_global .timer_modern_header{
+        padding: 10px 15px;
+    }
+    
+    #landing_global .counter_modern_time{
+        padding-top: 5px;
+        padding-bottom: 7px;
+    }
+    
+    #landing_global.view_full_width .spacing {
+        padding-left: 7%;
+        padding-right: 7%;
+    }
+    
+    #landing_global .c_advantages_block .title{
+        font-size: 180%;
+    }
+}
+
+@media all and (min-width:1px) and (max-width: 1100px){
+    
+    #landing_global .logo{
+        /*width: 170px;*/
+    }
+    
+    #landing_global .menu_phones{
+        width: 160px;
+    }
+    
+    #landing_global .main{
+        border: none;
+    }
+    
+    #landing_global .main_width{
+        width: 100%;
+    }
+    
+    #landing_global .root_menu li.delimiter {
+        margin: 0 6px;
+    }
+    
+    #landing_global .make_order{
+        background: url(../images/header/knopka_oformit_zayavku_m2.jpg);
+        height: 54px;
+        width: 311px;
+        margin-top: 0;
+    }
+    #landing_global .make_order:hover{
+        background-position: 0 -54px;
+    }
+    
+/*    #landing_global .c_header{
+        height: 402px;
+    }*/
+    
+    #landing_global.view_full_width .spacing {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    
+    #landing_global .item {
+        width: 300px;
+    }
+    
+    #landing_global .c_advantages_block .title{
+        font-size: 160%;
+    }
+    
+/*    .timer_modern{
+        width: 30%;
+    }*/
+}
+
+@media all and (min-width:1px) and (max-width: 1050px){
+    #landing_global .root_menu li a{
+        text-shadow: none;
+        font-size: 100%;
+    }
+    
+    #landing_global .contact_phones{
+        text-shadow: none;
+    }
+    
+    #landing_global .h_slogan div {
+        top: 8%;
+    }
+    
+    #landing_global .h_training{
+        font-size: 300%;
+    }
+    
+    #landing_global .h_about{
+        font-size: 200%;
+    }
+    
+    #landing_global .counter:not(.timer_modern){
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+    #landing_global .add_new_person{
+        font-size: 90%;
+    }
+    
+/*    #landing_global .c_header{
+        height: 391px;
+    }*/
+    
+/*    .timer_modern{
+        width: 31%;
+    }*/
+    
+    #landing_global .modern_timer_inner{
+        margin-bottom: 7px;
+    }
+    #landing_global .package_table tbody td{
+        height: 65px;
+    }
+    
+    #landing_global .package_table thead th.pack_class{
+        width: 120px;
+    }
+    
+    #landing_global .package_table tbody td.pt_image img{
+        width: 40px;
+        height: 40px;
+    }
+    
+    #landing_global .package_table tbody td.pt_image{
+        width: 55px !important;
+    }
+    
+    #landing_global.view_full_width .spacing {
+/*        padding-left: 2%;
+        padding-right: 2%;*/
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    
+    #landing_global.view_full_width .header .spacing {
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+    
+}
+
+/* -------------------------------------------------------------------------- */
+
+
+
+/* сред. */
+
+@media all and (min-width:1367px) and (max-width: 1869px){
+    #landing_global *{
+        font-size: 14px;
+    }
+    
+    #landing_global .logo{
+        /*width: 300px;*/
+    }
+    
+    #landing_global .menu_phones{
+        width: 220px;
+    }
+    
+    #landing_global .root_menu li a{
+        font-size: 120%
+    }
+    
+    #landing_global .root_menu li.delimiter span{
+        height: 17px;
+    }
+    
+    #landing_global .h_slogan div {
+        top: 13%;
+    }
+    
+    #landing_global .make_order{
+        background: url('../images/header/knopka_oformit_zayavku_m.jpg');
+        width: 460px;
+        height: 80px;
+    }
+    #landing_global .make_order:hover{
+        background-position: 0 -80px;
+    }
+    
+    #landing_global .timer_value{
+        width: 158px;
+        height: 225px;
+        background: url('../images/order/plaschka.png');
+    }
+    
+    #landing_global .timer_value span{
+        padding: 35px 0 30px 0;
+    }
+    
+    #landing_global .article_content_inner,
+    #landing_global .article_content_outer{
+        width: 780px;
+    }
+    
+    #landing_global .process_left{
+        width: 86px;
+    }
+    
+    #landing_global .process_spacing{
+        padding: 0 106px;
+    }
+    
+    #landing_global .process_arrow .arrow{
+        margin-top: -42px;
+        width: 86px;
+        height: 86px;
+    }
+
+    #landing_global .process_wrapper .process_left .arrow{
+        background-position: 0 0 !important;
+    }
+
+    #landing_global .process_left:hover .arrow{
+        background-position: -86px 0 !important;
+    }
+
+    #landing_global .process_left:active .arrow{
+        background-position: -172px 0 !important;
+    }
+
+    #landing_global .process_left.disabled .arrow{
+        background-position: -258px 0 !important;
+    }
+
+    #landing_global .process_wrapper .process_right .arrow{
+        background-position: 0 -86px !important;
+    }
+
+    #landing_global .process_right:hover .arrow{
+        background-position: -86px -86px !important;
+    }
+
+    #landing_global .process_right:active .arrow{
+        background-position: -172px -86px !important;
+    }
+
+    #landing_global .process_right.disabled .arrow{
+        background-position: -258px -86px !important;
+    }
+/*    .cat_left{
+        background: url(../images/bg-arrow-left_m.png);
+    }
+
+    .cat_right{
+        background: url(../images/bg-arrow-right_m.png);
+    }*/
+
+    #landing_global .cat_left,
+    #landing_global .cat_right{
+        width: 106px;
+    }
+
+    #landing_global .c_products .colections_nav{
+        left: 176px;
+    }
+    
+/*    .touch .item_full{
+        left: 106px;
+        right: 106px;
+    }*/
+
+    #landing_global .cat_arrow{
+        margin-top: -42px;
+        width: 86px;
+        height: 86px;
+    }
+
+    #landing_global .cat_left .cat_arrow{
+        background-position: 0 0 !important;
+    }
+
+    #landing_global .cat_left:hover .cat_arrow{
+        background-position: -86px 0 !important;
+    }
+
+    #landing_global .cat_left:active .cat_arrow{
+        background-position: -172px 0 !important;
+    }
+
+    #landing_global .cat_left.cat_nav_disabled .cat_arrow{
+        background-position: -258px 0 !important;
+    }
+
+    #landing_global .cat_right .cat_arrow{
+        background-position: 0 -86px !important;
+    }
+
+    #landing_global .cat_right:hover .cat_arrow{
+        background-position: -86px -86px !important;
+    }
+
+    #landing_global .cat_right:active .cat_arrow{
+        background-position: -172px -86px !important;
+    }
+
+    #landing_global .cat_right.cat_nav_disabled .cat_arrow{
+        background-position: -258px -86px !important;
+    }
+    
+    #landing_global .package_table tbody td{
+        height: 70px;
+    }
+    
+    #landing_global .package_table thead th.pack_class{
+        width: 190px;
+    }
+}
+
+@media all and (min-width:1367px) and (max-width: 1800px){
+    
+    #landing_global .logo{
+        /*width: 250px;*/
+    }
+    
+    #landing_global .menu_phones{
+        width: 220px;
+    }
+    
+    #landing_global .root_menu{
+        /*margin: 9px 0 0 0;*/
+    }
+    
+    #landing_global .root_menu li.delimiter {
+        margin: 0 8px;
+    }
+    
+/*    #landing_global .c_header{
+        height: 588px;
+    }*/
+    
+    #landing_global .item{
+        width: 380px;
+    }
+    
+    #landing_global .timer_modern{
+        width: 350px;
+    }
+}
+
+@media all and (min-width:1367px) and (max-width: 1700px){
+    
+    #landing_global .root_menu{
+        /*margin: 12px 0 0 0;*/
+    }
+    
+    #landing_global .logo{
+    }
+    
+    #landing_global .root_menu li a {
+        font-size: 110%;
+    }
+    
+    #landing_global .h_slogan div {
+        top: 10%;
+    }
+    
+/*    #landing_global .c_header{
+        height: 553px;
+    }*/
+    
+    #landing_global .item{
+        width: 350px;
+    }
+    
+    #landing_global .timer_modern{
+        width: 350px;
+    }
+}
+
+@media all and (min-width:1367px) and (max-width: 1600px){
+    
+    #landing_global .spacing{
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+    
+    #landing_global .logo{
+        /*width: 220px;*/
+    }
+    
+    #landing_global .menu_phones{
+        width: 200px;
+    }
+    
+    #landing_global .root_menu {
+        margin-top: 8px;
+    }
+    
+    #landing_global .contact_phones{
+        right: 4%;
+        font-size: 125%;
+    }
+    
+    #landing_global .h_content{
+        margin-top: 30px;
+    }
+    
+/*    #landing_global .c_header{
+        height: 518px;
+    }*/
+    
+    #landing_global .item{
+        width: 330px;
+    }
+    
+    #landing_global .timer_modern{
+        width: 350px;
+    }
+    
+    #landing_global .c_advantages_block .title{
+        font-size: 230%;
+    }
+}
+
+@media all and (min-width:1367px) and (max-width: 1500px){
+    
+    #landing_global .logo{
+        /*width: 210px;*/
+    }
+    
+    #landing_global .menu_phones{
+        width: 185px;
+    }
+    
+    #landing_global .root_menu li a {
+        font-size: 100%;
+    }
+    
+    #landing_global .contact_phones{
+        font-size: 115%;
+    }
+    
+    #landing_global .root_menu li.delimiter span{
+        height: 14px;
+    }
+    
+    #landing_global .root_menu li.delimiter {
+        margin: 0 7px;
+    }
+    
+    #landing_global .h_slogan div {
+        font-size: 210%;
+        top: 9%;
+    }
+    
+    #landing_global .h_training{
+        font-size: 300%;
+    }
+    
+    #landing_global .h_about{
+        font-size: 200%;
+    }
+    
+    #landing_global .counter:not(.timer_modern){
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    
+    #landing_global .make_order{
+        margin-top: 15px;
+    }
+    
+    #landing_global .timer_value{
+        width: 139px;
+        height: 198px;
+        background: url(../images/order/plaschka_m.png);
+    }
+    
+    #landing_global .timer_value span{
+        padding: 32px 0 27px 0;
+    }
+    
+    #landing_global .add_new_person{
+        font-size: 90%;
+    }
+    
+/*    #landing_global .c_header{
+        height: 472px;
+    }*/
+    
+    #landing_global .item{
+        width: 300px;
+    }
+    
+    #landing_global .timer_modern{
+        width: 362px;
+    }
+    
+    #landing_global .c_advantages_block .title{
+        font-size: 220%;
+    }
+}
+
+
+@media all and (min-width:1367px) and (max-width: 1600px){
+    
+    #landing_global.view_full_width .spacing {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    
+}
+
+/* -------------------------------------------------------------------------- */
+
+
+
+/* макс. */
+@media all and (min-width:1870px), 
+all and (min-height: 1024px) and (min-width: 1280px){
+    #landing_global *{
+        font-size: 16px;
+    }
+    
+    #landing_global .make_order{
+        background: url(../images/header/knopka_oformit_zayavku.jpg);
+        width: 518px;
+        height: 90px;
+    }
+    
+    #landing_global .make_order:hover{
+        background-position: 0 -90px;
+    }
+    
+    #landing_global .timer_value{
+        width: 158px;
+        height: 225px;
+        background: url(../images/order/plaschka.png);
+    }
+    
+    #landing_global .timer_value span{
+        padding: 35px 0 30px 0;
+    }
+    
+/*    #landing_global .c_header{
+        height: 662px;
+    }*/
+    
+    #landing_global .article_content_inner,
+    #landing_global .article_content_outer{
+        width: 880px;
+    }
+    
+    #landing_global .process_left{
+        width: 100px;
+    }
+    
+    #landing_global .process_spacing{
+        padding: 0 120px;
+    }
+    
+    #landing_global .process_arrow .arrow{
+        margin-top: -50px;
+        width: 100px;
+        height: 100px;
+    }
+
+    #landing_global .process_wrapper .process_left .arrow{
+        background-position: 0 0 !important;
+    }
+
+    #landing_global .process_left:hover .arrow{
+        background-position: -100px 0 !important;
+    }
+
+    #landing_global .process_left:active .arrow{
+        background-position: -200px 0 !important;
+    }
+
+    #landing_global .process_left.disabled .arrow{
+        background-position: -300px 0 !important;
+    }
+
+    #landing_global .process_wrapper .process_right .arrow{
+        background-position: 0 -100px !important;
+    }
+
+    #landing_global .process_right:hover .arrow{
+        background-position: -100px -100px !important;
+    }
+
+    #landing_global .process_right:active .arrow{
+        background-position: -200px -100px !important;
+    }
+
+    #landing_global .process_right.disabled .arrow{
+        background-position: -300px -100px !important;
+    }
+/*    .cat_left{
+        background: url(../images/bg-arrow-left.png);
+    }
+
+    .cat_right{
+        background: url(../images/bg-arrow-right.png);
+    }*/
+
+    #landing_global .cat_left,
+    #landing_global .cat_right{
+        width: 120px;
+    }
+
+    #landing_global .c_products .colections_nav{
+        left: 190px;
+    }
+    
+/*    .touch .item_full{
+        left: 120px;
+        right: 120px;
+    }*/
+
+    #landing_global .cat_arrow{
+        margin-top: -50px;
+        width: 100px;
+        height: 100px;
+    }
+
+    #landing_global .cat_left .cat_arrow{
+        background-position: 0 0 !important;
+    }
+
+    #landing_global .cat_left:hover .cat_arrow{
+        background-position: -100px 0 !important;
+    }
+
+    #landing_global .cat_left:active .cat_arrow{
+        background-position: -200px 0 !important;
+    }
+
+    #landing_global .cat_left.cat_nav_disabled .cat_arrow{
+        background-position: -300px 0 !important;
+    }
+
+    #landing_global div.cat_right .cat_arrow{
+        background-position: 0 -100px !important;
+    }
+
+    #landing_global .cat_right:hover .cat_arrow{
+        background-position: -100px -100px !important;
+    }
+
+    #landing_global .cat_right:active .cat_arrow{
+        background-position: -200px -100px !important;
+    }
+
+    #landing_global .cat_right.cat_nav_disabled .cat_arrow{
+        background-position: -300px -100px !important;
+    }
+    
+    #landing_global .timer_modern{
+        width: 385px;
+    }
+    
+    #landing_global .package_table tbody td{
+        height: 75px;
+    }
+    
+    #landing_global .package_table thead th.pack_class{
+        width: 210px;
+    }
+}
+
