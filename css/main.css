@@ -2550,11 +2550,11 @@ html#landing_global {
     vertical-align: middle;
     /*float: left;*/
     height: 100%;
-    width: 45%;
+    /*width: 45%;*/
 }
 
 #landing_global .order_inform_left{
-    padding-right: 5%;
+    /*padding-right: 5%;*/
 }
 
 #landing_global .order_inform_left.left_center{
