@@ -825,7 +825,8 @@ function Site($global_context){
                     hide_loader = false;
                 }
             };
-            img_l.src = l_prefix + 'images/loader.png';
+            // img_l.src = l_prefix + 'images/loader.png';
+            img_l.src = 'images/loader.png';
         }
         
         if(typeof(timer_values) !== 'undefined'){
