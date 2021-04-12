@@ -262,8 +262,8 @@ html#landing_global {
 }
 
 #landing_global .root_menu li{
-    height: 100%;
-    float: left;
+    /*height: 100%;*/
+    /*float: left;*/
 }
 
 #landing_global .root_menu li.delimiter{
