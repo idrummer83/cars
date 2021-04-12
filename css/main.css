@@ -296,7 +296,7 @@ html#landing_global {
     font-size: 135%;
     text-shadow: 0 1px 1px rgba(0,0,0,.3);
     color: #5E7A7E;
-    float: right;
+    /*float: right;*/
 }
 
 #landing_global .m_recall{

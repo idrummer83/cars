@@ -41,7 +41,7 @@
     }
     
     #landing_global .contact_phones{
-        right: 3%;
+        /*right: 3%;*/
         font-size: 125%;
     }
 
@@ -270,7 +270,7 @@
     }
     
     #landing_global .contact_phones{
-        right: 2%;
+        /*right: 2%;*/
         font-size: 125%;
     }
     
@@ -299,7 +299,7 @@
 @media all and (min-width:1px) and (max-width: 1200px){
     
     #landing_global .contact_phones{
-        right: 2%;
+        /*right: 2%;*/
         font-size: 115%;
     }
     
