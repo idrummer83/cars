@@ -13,6 +13,7 @@
           content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, width=device-width">
     <link type="text/css" rel="stylesheet" href="css/main.css?57">
     <link type="text/css" rel="stylesheet" href="css/resize.css?28">
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
     <link type="text/css" rel="stylesheet" href="css/bootstrap-grid.min.css">
     <style type="text/css">
 
@@ -177,33 +178,36 @@
                                     <div class="order_form_title title_in_section">Обратный звонок</div>
                                     <form data-validate="parsley" class="data_form" method="post"
                                           action="/landing/02/ajax_forms.php?form_id=5" data-id="5">
-                                        <table class="form_table">
-                                            <tr>
-                                                <td class="form_name"><span class="field_name">Имя</span></td>
-                                                <td class="form_field">
-                                                    <div class="relative"><input data-trigger="keyup" type="text"
+                                        <div class="form_table container p-0">
+                                            <div class="row">
+                                                <div class="form_name col-sm-6">
+                                                    <span class="field_name">Имя</span></div>
+                                                <row class="form_field col-sm-6">
+                                                    <div class="relative">
+                                                        <input data-trigger="keyup" type="text"
                                                                                  name="fields[20]" value=""><br></div>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td class="form_name"><span
-                                                        class="field_name">Ваш контактный телефон</span><span
-                                                        class="required_form_field">*</span></td>
-                                                <td class="form_field">
+                                                </row>
+                                            </div>
+                                            <div class="row">
+                                                <div class="form_name col-sm-6">
+                                                    <span class="field_name">Ваш контактный телефон</span><span
+                                                        class="required_form_field">*</span></div>
+                                                <div class="form_field col-sm-6">
                                                     <div class="relative"><input data-trigger="keyup"
                                                                                  data-required="true" type="text"
                                                                                  name="fields[21]" value=""><br></div>
-                                                </td>
-                                            </tr>
-                                            <tr class="form_el form_el_submit">
-                                                <td></td>
-                                                <td><input type="submit" class="btn" value="Получить консультацию"><img
+                                                </div>
+                                            </div>
+                                            <div class="form_el form_el_submit">
+<!--                                                <td></td>-->
+                                                <div class="col p-0">
+                                                    <input type="submit" class="btn" value="Получить консультацию"><img
                                                         class="order_send_loader" src="images/loading.gif"
                                                         alt=" ">
                                                     <div class="data_form_message"></div>
-                                                </td>
-                                            </tr>
-                                        </table>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </form>
                                     <script type="text/javascript" src="js/parsley.js"></script>
                                 </div>
@@ -572,7 +576,7 @@
                                 <strong><span>Тип &nbsp;Диаметр пружины (мм)&nbsp;<strong>
                                     <strong>Межвитковое пространство (мм)</strong></strong></span></strong>&nbsp; &nbsp;&nbsp;</span></strong>
                             </p>
-                            <table style="width: 600px; margin-left: auto; margin-right: auto;" border="0"
+                            <table style="max-width: 600px;width:100%; margin-left: auto; margin-right: auto;" border="0"
                                    cellspacing="15" cellpadding="15">
                                 <tbody>
                                 <tr align="left" valign="top">
