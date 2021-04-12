@@ -315,30 +315,36 @@
                     <div class="order_form_title title_in_section" style="color: #041a45">Получить консультацию</div>
                     <form data-validate="parsley" class="data_form" method="post"
                           action="/landing/02/ajax_forms.php?form_id=5" data-id="5">
-                        <table class="form_table">
-                            <tr>
-                                <td class="form_name"><span class="field_name">Имя</span></td>
-                                <td class="form_field">
-                                    <div class="relative"><input data-trigger="keyup" type="text" name="fields[20]"
+                        <div class="form_table container p-0">
+                            <div class="row">
+                                <div class="form_name col-sm-6" style="display: flex;align-items: center;">
+                                    <span class="field_name">Имя</span></div>
+                                <div class="form_field col-sm-6">
+                                    <div class="relative">
+                                        <input data-trigger="keyup" type="text" name="fields[20]"
                                                                  value=""><br></div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="form_name"><span class="field_name">Ваш контактный телефон</span><span
-                                        class="required_form_field">*</span></td>
-                                <td class="form_field">
-                                    <div class="relative"><input data-trigger="keyup" data-required="true" type="text"
-                                                                 name="fields[21]" value=""><br></div>
-                                </td>
-                            </tr>
-                            <tr class="form_el form_el_submit">
-                                <td></td>
-                                <td><input type="submit" class="btn" value="Получить консультацию"><img
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form_name col-sm-6" style="display: flex;align-items: center;">
+                                    <span class="field_name">Ваш контактный телефон</span><span
+                                        class="required_form_field">*</span></div>
+                                <div class="form_field col-sm-6">
+                                    <div class="relative">
+                                        <input data-trigger="keyup" data-required="true" type="text"
+                                                                 name="fields[21]" value=""><br>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form_el form_el_submit row">
+<!--                                <td></td>-->
+                                <div class="col">
+                                    <input type="submit" class="btn" value="Получить консультацию"><img
                                         class="order_send_loader" src="images/loading.gif" alt=" ">
                                     <div class="data_form_message"></div>
-                                </td>
-                            </tr>
-                        </table>
+                                </div>
+                            </div>
+                        </div>
                     </form>
                     <script type="text/javascript" src="js/parsley.js"></script>
                 </div>

@@ -393,6 +393,13 @@ html#landing_global {
     background-color: #F3F3F3;
 }
 
+
+@media all and (max-width: 575px) {
+    .popup_window .form_el .btn {
+        padding: 15px 8px !important;
+    }
+}
+
 #landing_global .btn:hover{
     background-image: linear-gradient(bottom, #F3F3F3 28%, #C9C9C9 76%);
     background-image: -o-linear-gradient(bottom, #F3F3F3 28%, #C9C9C9 76%);
@@ -696,9 +703,13 @@ html#landing_global {
 
 #landing_global .popup_window{
     position: fixed;
-    width: 800px;
-    margin-left: -400px;
-    left: 50%;
+    left: 15px;
+    right: 15px;
+    /*width: 800px;*/
+    max-width: 800px;
+    margin: 0 auto;
+    /*margin-left: -400px;*/
+    /*left: 50%;*/
     display: none;
     background-color: #fff;
     border-radius: 10px;
@@ -708,7 +719,13 @@ html#landing_global {
 
 #landing_global .popup_window .popup_inner{
     padding: 30px 40px;
-    position: relative;
+    /*position: relative;*/
+}
+
+@media all and (max-width: 991px) {
+    #landing_global .popup_window .popup_inner{
+        padding: 30px 15px;
+    }
 }
 
 #landing_global .popup_window .popup_close{
@@ -1469,8 +1486,8 @@ html#landing_global {
 }
 
 #landing_global .form_name{
-    white-space: nowrap;
-    width: 40%;
+    /*white-space: nowrap;*/
+    /*width: 40%;*/
 }
 
 #landing_global .form_field > div.relative{
@@ -1493,8 +1510,8 @@ html#landing_global {
     font-size: 100%;
     border-radius: 5px;
     padding: 5px 7px;
-    width: 90%;
-    margin-left: 5%;
+    width: 100%;
+    /*margin-left: 5%;*/
     box-shadow: inset 0 1px 2px rgba(0,0,0,.5);
 }
 
@@ -1504,7 +1521,7 @@ html#landing_global {
 }
 
 #landing_global .form_table .field_name{
-    float: left;
+    /*float: left;*/
 }
 
 #landing_global .form_table .required_form_field{
